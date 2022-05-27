@@ -13,6 +13,7 @@
 		BA317F552839F98F00B31700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA317F532839F98F00B31700 /* Main.storyboard */; };
 		BA317F572839F99000B31700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA317F562839F99000B31700 /* Assets.xcassets */; };
 		BA317F5A2839F99000B31700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA317F582839F99000B31700 /* LaunchScreen.storyboard */; };
+		BA317F62283A02E500B31700 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA317F61283A02E500B31700 /* TemplateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BA317F562839F99000B31700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA317F592839F99000B31700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA317F5B2839F99000B31700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA317F61283A02E500B31700 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BA317F562839F99000B31700 /* Assets.xcassets */,
 				BA317F582839F99000B31700 /* LaunchScreen.storyboard */,
 				BA317F5B2839F99000B31700 /* Info.plist */,
+				BA317F61283A02E500B31700 /* TemplateView.swift */,
 			);
 			path = "HW12-Pomo";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA317F62283A02E500B31700 /* TemplateView.swift in Sources */,
 				BA317F522839F98F00B31700 /* ViewController.swift in Sources */,
 				BA317F4E2839F98F00B31700 /* AppDelegate.swift in Sources */,
 				BA317F502839F98F00B31700 /* SceneDelegate.swift in Sources */,
